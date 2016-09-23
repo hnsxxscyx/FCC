@@ -1,0 +1,46 @@
+body {
+	margin: 0;
+	padding: 1%;
+	background-color: #FFF;
+	z-index: 1;
+}
+
+#wall {
+	margin: auto;
+	position: relative;
+	background-color: #eee;
+	width: 95%;
+	height: 500px;
+	border: 2px solid #grey;
+	overflow: hidden;
+}
+
+#content{
+	margin: auto;
+	width: 20em;
+	padding: 15px;
+}
+
+#content label{
+	border-color: grey;
+}
+
+#txt {
+	width: 20em;
+	height: 2em;
+	border: solid 1px grey;
+	border-radius: 5px;
+	margin: auto;
+}
+button {
+	border: solid 1px;
+	border-radius: 8px;
+	background-color: #286090;
+	margin: auto;
+	margin-top: 0.3em;
+	width: 10em;
+	height: 3em;
+	font-weight: 700;
+	color: #fff;
+	text-align: center;
+}
