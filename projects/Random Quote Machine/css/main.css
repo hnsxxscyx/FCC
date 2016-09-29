@@ -1,0 +1,36 @@
+.center{
+	position  : absolute;
+	top       : 50%;
+	left      : 50%;
+	transform : translate(-50%,-50%);
+	width: 50%;
+	background-color: white;
+	border-radius: 1em;
+}
+#content{
+	width: 80%;
+	margin: auto;
+	padding: 2em;
+}
+button{
+	width: 3.5em;
+	height: 2.5em;
+	border-radius: 0.6em;
+	background-color: #16a085;
+}
+
+img{
+	width: 1.5em;
+	height: 1.5em;
+	margin: auto;
+}
+#change{
+	height: 2.5em;
+	width: 5em;
+	color: white;
+	float: right;
+}
+.down{
+	padding: 1em;
+}
+
