@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>weather</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<img id="bcimg" src="img/earth.jpg" alt="earth">
+	<div id='box'><!--开始不明白为什么在这个盒子里放内容会影响到整个页面，连absolute的图片都不能例外，后来发现就是absolute惹得锅，具体怎么回事还得看以后，但是把body设置成absolute暂时解决上面露一块的问题-->
+		<p id="city"></p>
+		<p id="time"></p>
+		<p id="weather"></p>
+		<p id="max"></p>
+		<p id='min'></p>
+		<p id='wind'></p>
+	</div>
+</body>
+	<script src='scripts/jquery.js'></script>
+	<script src='scripts/weather.js'></script>
+</html>
